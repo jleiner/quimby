@@ -19,6 +19,10 @@ module Foursquare
       @json["type"]
     end
 
+    def photos
+      @json["photos"]
+    end
+    
     def shout?
       type == "shout"
     end
